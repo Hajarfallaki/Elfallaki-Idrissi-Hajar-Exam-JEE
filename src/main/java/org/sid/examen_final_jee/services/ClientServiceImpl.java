@@ -2,6 +2,7 @@ package org.sid.examen_final_jee.services;
 
 import org.sid.examen_final_jee.dtos.ClientDTO;
 import org.sid.examen_final_jee.entites.Client;
+import org.sid.examen_final_jee.exception.ResourceNotFoundException;
 import org.sid.examen_final_jee.mappers.ClientMapper;
 import org.sid.examen_final_jee.repositories.ClientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
